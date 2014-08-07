@@ -12,5 +12,5 @@ power$Date<-as.Date(power$Date,format="%d/%m/%Y")
 
 #1 - Draw Histogram
 png("plot1.png")
-hist(power$Global_active_power,col="red",xlab="Global Active Power (kilowatts)")
+hist(power$Global_active_power,col="red",xlab="Global Active Power (kilowatts)",main="Global Active Power")
 dev.off()
